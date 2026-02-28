@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redfish Rendezvous | Private Waterfront Fishing · Ingleside, TX</title>
+    <meta name="description" content="Private waterfront fishing on Ingleside Bay. Bulkhead, private island dock, kayaks, guided experience, all tackle included." />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              navy: '#0a1628',
+              'navy-light': '#112040',
+              seafoam: '#5fb3a1',
+              sand: '#c8a97e',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      html { scroll-behavior: smooth; }
+      .hero-bg { background: linear-gradient(160deg, #0a1628 0%, #0d2a4a 40%, #0f3d5c 70%, #0a2a3a 100%); }
+      .stat-card { transition: transform 0.3s ease; }
+      .stat-card:hover { transform: translateY(-4px); }
+      @keyframes float { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-8px)} }
+      .float { animation: float 4s ease-in-out infinite; }
+    </style>
+  </head>
+  <body class="bg-navy text-white" style="font-family:system-ui,sans-serif">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
