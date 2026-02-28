@@ -2,9 +2,9 @@ import { useState, useEffect } from 'react'
 
 const HERO_IMG = "https://hbfjdfxephlczkfgpceg.supabase.co/storage/v1/object/public/temp/redfish_hero_final_1772322408.jpg"
 const GALLERY = [
-  { url: "https://res.cloudinary.com/dbyz6clmj/image/upload/v1772322491/home-designs/generated/alrhvpucasz0qgkbixwj.jpg", caption: "Ingleside Bay at sunset" },
-  { url: "https://res.cloudinary.com/dbyz6clmj/image/upload/v1772322491/home-designs/generated/mzzzc8ibm6g0mcdiuebn.jpg", caption: "Waterfront lawn & bay access" },
-  { url: "https://res.cloudinary.com/dbyz6clmj/image/upload/v1772322489/home-designs/generated/fgaiiilk1ybsi1l0wfbk.jpg", caption: "The property" },
+  { url: "https://hbfjdfxephlczkfgpceg.supabase.co/storage/v1/object/public/temp/redfish_final1_1772322578.jpg", caption: "Ingleside Bay at sunset" },
+  { url: "https://hbfjdfxephlczkfgpceg.supabase.co/storage/v1/object/public/temp/redfish_final2_1772322578.jpg", caption: "The property" },
+  { url: "https://res.cloudinary.com/dbyz6clmj/image/upload/v1772321891/home-designs/generated/gvih2lrtusg0mkyddhnf.jpg", caption: "Bulkhead & private island view" },
 ]
 
 const NAV_LINKS = [
