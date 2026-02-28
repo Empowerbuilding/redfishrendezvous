@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-const HERO_IMG = "https://res.cloudinary.com/dbyz6clmj/image/upload/v1772321991/home-designs/generated/d42gxzgwecxvsjir3xcc.jpg"
+const HERO_IMG = "https://hbfjdfxephlczkfgpceg.supabase.co/storage/v1/object/public/temp/redfish_hero_final_1772322408.jpg"
 const GALLERY = [
   { url: "https://res.cloudinary.com/dbyz6clmj/image/upload/v1772321891/home-designs/generated/gvih2lrtusg0mkyddhnf.jpg", caption: "Bulkhead & private island view" },
   { url: "https://res.cloudinary.com/dbyz6clmj/image/upload/v1772321813/home-designs/generated/v1dwvufbjbhhvd00oa3a.jpg", caption: "Ingleside Bay at sunset" },
