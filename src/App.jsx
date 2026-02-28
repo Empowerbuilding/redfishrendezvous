@@ -1,10 +1,10 @@
 import { useState, useEffect } from 'react'
 
-const HERO_IMG = "https://hbfjdfxephlczkfgpceg.supabase.co/storage/v1/object/public/temp/redfish_hero_final_1772322408.jpg"
+const HERO_IMG = "https://hbfjdfxephlczkfgpceg.supabase.co/storage/v1/object/public/temp/redfish_island_sunrise_1772323107.jpg"
 const GALLERY = [
   { url: "https://hbfjdfxephlczkfgpceg.supabase.co/storage/v1/object/public/temp/redfish_final1_1772322578.jpg", caption: "Ingleside Bay at sunset" },
   { url: "https://hbfjdfxephlczkfgpceg.supabase.co/storage/v1/object/public/temp/redfish_final2_1772322578.jpg", caption: "The property" },
-  { url: "https://res.cloudinary.com/dbyz6clmj/image/upload/v1772321891/home-designs/generated/gvih2lrtusg0mkyddhnf.jpg", caption: "Bulkhead & private island view" },
+  { url: "https://hbfjdfxephlczkfgpceg.supabase.co/storage/v1/object/public/temp/redfish_bay_sunset_1772323107.jpg", caption: "Ingleside Bay at sunset" },
 ]
 
 const NAV_LINKS = [
