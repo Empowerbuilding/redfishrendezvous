@@ -1,11 +1,10 @@
 import { useState, useEffect } from 'react'
 
-const HERO_IMG = "https://res.cloudinary.com/dbyz6clmj/image/upload/v1772321456/home-designs/generated/q9oygfiougpd1sjdtc5y.jpg"
+const HERO_IMG = "https://res.cloudinary.com/dbyz6clmj/image/upload/v1772321991/home-designs/generated/d42gxzgwecxvsjir3xcc.jpg"
 const GALLERY = [
-  { url: "https://res.cloudinary.com/dbyz6clmj/image/upload/v1772321450/home-designs/generated/pwjmss2awjyyqsuhcthm.jpg", caption: "Private dock & bay access" },
-  { url: "https://res.cloudinary.com/dbyz6clmj/image/upload/v1772321451/home-designs/generated/o8chg1ujszplxuqgqx74.jpg", caption: "Bulkhead & private island view" },
-  { url: "https://res.cloudinary.com/dbyz6clmj/image/upload/v1772321276/home-designs/generated/hzbyr1v51gt8p1gi4b2z.jpg", caption: "Waterfront patio & koi pond" },
-  { url: "https://res.cloudinary.com/dbyz6clmj/image/upload/v1772321452/home-designs/generated/dt2cse7vh5ej806v4fz3.jpg", caption: "Dock walkway at golden hour" },
+  { url: "https://res.cloudinary.com/dbyz6clmj/image/upload/v1772321891/home-designs/generated/gvih2lrtusg0mkyddhnf.jpg", caption: "Bulkhead & private island view" },
+  { url: "https://res.cloudinary.com/dbyz6clmj/image/upload/v1772321813/home-designs/generated/v1dwvufbjbhhvd00oa3a.jpg", caption: "Ingleside Bay at sunset" },
+  { url: "https://res.cloudinary.com/dbyz6clmj/image/upload/v1772321812/home-designs/generated/jzhs8glcgl60jas8hcws.jpg", caption: "The property" },
 ]
 
 const NAV_LINKS = [
