@@ -41,6 +41,17 @@ const INCLUDED = [
   { icon: '🚁', title: 'Drone Bait Drops', desc: 'Our fishing drone drops bait 300+ yards offshore — the secret weapon for big sharks.' },
 ]
 
+
+const CATCHES = [
+  { url: "https://hbfjdfxephlczkfgpceg.supabase.co/storage/v1/object/public/temp/redfish_catch1_1772323035.jpg", species: "Speckled Trout", caption: "Kayak fishing at sunrise on the bay" },
+  { url: "https://hbfjdfxephlczkfgpceg.supabase.co/storage/v1/object/public/temp/redfish_catch2_1772323035.jpg", species: "Flounder", caption: "Big flounder right off the dock at sunset" },
+  { url: "https://hbfjdfxephlczkfgpceg.supabase.co/storage/v1/object/public/temp/redfish_catch3_1772323035.jpg", species: "Redfish", caption: "Slot red from the bulkhead" },
+  { url: "https://hbfjdfxephlczkfgpceg.supabase.co/storage/v1/object/public/temp/redfish_catch4_1772323035.jpg", species: "Redfish", caption: "Night fishing haul — 3 bull reds" },
+  { url: "https://hbfjdfxephlczkfgpceg.supabase.co/storage/v1/object/public/temp/redfish_catch5_1772323035.jpg", species: "Flounder", caption: "Flounder on the cleaning table, island dock in background" },
+  { url: "https://hbfjdfxephlczkfgpceg.supabase.co/storage/v1/object/public/temp/redfish_catch6_1772323035.jpg", species: "Redfish", caption: "Night redfish from the property" },
+  { url: "https://hbfjdfxephlczkfgpceg.supabase.co/storage/v1/object/public/temp/redfish_catch7_1772323035.jpg", species: "Redfish", caption: "Evening red at dusk on Ingleside Bay" },
+]
+
 export default function App() {
   const [scrolled, setScrolled] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
@@ -251,6 +262,36 @@ export default function App() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+
+      {/* CATCHES */}
+      <section id="catches" className="py-20 px-4" style={{background:'#0a1628'}}>
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-4xl font-bold text-center mb-2" style={{fontFamily:'Georgia,serif', color:'white'}}>Real Catches.</h2>
+          <p className="text-center mb-4" style={{color:'#5fb3a1', fontFamily:'Georgia,serif', fontStyle:'italic'}}>From this exact property.</p>
+          <p className="text-center mb-16 max-w-xl mx-auto text-sm" style={{color:'#94a3b8'}}>
+            No stock photos. No guided charter boat. These were all caught from the bulkhead, the island dock, and the kayaks — right here at Redfish Rendezvous.
+          </p>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+            {CATCHES.map((c, i) => (
+              <div key={i} className="relative rounded-xl overflow-hidden group" style={{aspectRatio:'3/4'}}>
+                <img src={c.url} alt={c.caption} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+                <div className="absolute inset-0 flex flex-col justify-end opacity-0 group-hover:opacity-100 transition-opacity duration-300" style={{background:'linear-gradient(to top, rgba(10,22,40,0.95), transparent)'}}>
+                  <div className="p-3">
+                    <p className="text-xs font-bold mb-1" style={{color:'#5fb3a1'}}>{c.species}</p>
+                    <p className="text-xs" style={{color:'#94a3b8'}}>{c.caption}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+          <p className="text-center mt-10">
+            <a href="#book" className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-bold text-white transition-all hover:scale-105" style={{background:'#5fb3a1', boxShadow:'0 4px 20px rgba(95,179,161,0.4)'}}>
+              🎣 Book Your Trip
+            </a>
+          </p>
         </div>
       </section>
 
