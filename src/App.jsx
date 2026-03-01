@@ -8,7 +8,7 @@ const TS3 = "1772323172"
 const TS4 = "1772323107"
 const TS5 = "1772322578"
 
-const HERO_IMG = `${SB}/redfish_island_sunrise_${TS4}.jpg`
+const HERO_IMG = "https://hbfjdfxephlczkfgpceg.supabase.co/storage/v1/object/public/temp/rr_hero_final_1772326516.jpg"
 
 const PROPERTY_PHOTOS = [
   { url: "https://hbfjdfxephlczkfgpceg.supabase.co/storage/v1/object/public/temp/rr_island_orange_1772323992.jpg", caption: "The private island at sunrise" },
