@@ -16,29 +16,29 @@ const NAV_LINKS = [
 ]
 
 const SPECIES = [
-  { name: 'Redfish', emoji: '🐟', desc: "The bay's crown jewel. Bull reds and slot fish both run strong in Ingleside Bay year-round." },
-  { name: 'Speckled Trout', emoji: '🎣', desc: 'Spec city. Grass flats and deeper channels load up with trout, especially in the cooler months.' },
-  { name: 'Flounder', emoji: '🐠', desc: 'Flat and stealthy. Flounder stack up near structure and along the bulkhead — great for gigging at night.' },
-  { name: 'Black Drum', emoji: '🥁', desc: 'Hard fighters. Drum love the bay bottom and are a blast on light tackle from the dock.' },
-  { name: 'Sheepshead', emoji: '🐡', desc: 'The bait thieves of the bay. Stack up around the pilings and dock structure all year long.' },
-  { name: 'Shark', emoji: '🦈', desc: 'Drone-drop specialty. Fly bait 300+ yards offshore and hook into bull sharks and blacktips.' },
+  { name: 'Redfish', emoji: '', desc: "The bay's crown jewel. Bull reds and slot fish both run strong in Ingleside Bay year-round." },
+  { name: 'Speckled Trout', emoji: '', desc: 'Spec city. Grass flats and deeper channels load up with trout, especially in the cooler months.' },
+  { name: 'Flounder', emoji: '', desc: 'Flat and stealthy. Flounder stack up near structure and along the bulkhead — great for gigging at night.' },
+  { name: 'Black Drum', emoji: '', desc: 'Hard fighters. Drum love the bay bottom and are a blast on light tackle from the dock.' },
+  { name: 'Sheepshead', emoji: '', desc: 'The bait thieves of the bay. Stack up around the pilings and dock structure all year long.' },
+  { name: 'Shark', emoji: '', desc: 'Drone-drop specialty. Fly bait 300+ yards offshore and hook into bull sharks and blacktips.' },
 ]
 
 const TROPHIES = [
-  { fish: 'Redfish', size: '32"', weight: '12 lbs', emoji: '🏆' },
-  { fish: 'Speckled Trout', size: '28"', weight: '7 lbs', emoji: '⭐' },
-  { fish: 'Flounder', size: '22"', weight: '5 lbs', emoji: '🥇' },
-  { fish: 'Black Drum', size: '38"', weight: '22 lbs', emoji: '💪' },
-  { fish: 'Bull Shark', size: "6'4\"", weight: '180 lbs', emoji: '🦈' },
+  { fish: 'Redfish', size: '32"', weight: '12 lbs', emoji: '' },
+  { fish: 'Speckled Trout', size: '28"', weight: '7 lbs', emoji: '' },
+  { fish: 'Flounder', size: '22"', weight: '5 lbs', emoji: '' },
+  { fish: 'Black Drum', size: '38"', weight: '22 lbs', emoji: '' },
+  { fish: 'Bull Shark', size: "6'4\"", weight: '180 lbs', emoji: '' },
 ]
 
 const INCLUDED = [
-  { icon: '🎣', title: 'All Tackle Provided', desc: 'Rods, reels, lures, hooks, weights — everything you need is already here.' },
-  { icon: '🦀', title: 'Live & Cut Bait', desc: 'Fresh bait available on-site. Mullet, shrimp, and crab when in season.' },
-  { icon: '🚣', title: 'Kayak Launch', desc: 'Use our kayaks to explore the flats, reach structure, or fish the grass beds.' },
-  { icon: '🏝️', title: 'Private Island Dock', desc: 'Walk the dock out to our private island — a prime casting spot most anglers never see.' },
-  { icon: '🔪', title: 'Fish Cleaning Station', desc: "Full cleaning table on-site. You catch 'em, we help clean 'em." },
-  { icon: '🚁', title: 'Drone Bait Drops', desc: 'Our fishing drone drops bait 300+ yards offshore — the secret weapon for big sharks.' },
+  { icon: '', title: 'All Tackle Provided', desc: 'Rods, reels, lures, hooks, weights — everything you need is already here.' },
+  { icon: '', title: 'Live & Cut Bait', desc: 'Fresh bait available on-site. Mullet, shrimp, and crab when in season.' },
+  { icon: '', title: 'Kayak Launch', desc: 'Use our kayaks to explore the flats, reach structure, or fish the grass beds.' },
+  { icon: '', title: 'Private Island Dock', desc: 'Walk the dock out to our private island — a prime casting spot most anglers never see.' },
+  { icon: '', title: 'Fish Cleaning Station', desc: "Full cleaning table on-site. You catch 'em, we help clean 'em." },
+  { icon: '', title: 'Drone Bait Drops', desc: 'Our fishing drone drops bait 300+ yards offshore — the secret weapon for big sharks.' },
 ]
 
 
@@ -69,7 +69,7 @@ export default function App() {
       <nav className={`fixed top-0 w-full z-50 transition-all duration-300`} style={{background: scrolled ? '#0a1628ee' : 'transparent', backdropFilter: scrolled ? 'blur(10px)' : 'none', boxShadow: scrolled ? '0 2px 20px rgba(0,0,0,0.4)' : 'none'}}>
         <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
           <a href="#" className="flex items-center gap-2 text-xl font-bold" style={{color:'#5fb3a1', fontFamily:'Georgia,serif'}}>
-            🎣 Redfish Rendezvous
+            Redfish Rendezvous
           </a>
           <div className="hidden md:flex items-center gap-6">
             {NAV_LINKS.map(l => (
@@ -148,12 +148,12 @@ export default function App() {
           </p>
           <div className="grid md:grid-cols-3 gap-8">
             {[
-              { icon:'🏗️', title:'The Bulkhead', desc:'Solid casting platform right on the water. Perfect for redfish and drum cruising the shallows along the seawall.' },
-              { icon:'🏝️', title:'Private Island', desc:"A dock leads to a private island out in the bay — an elevated vantage point with open water casting in every direction." },
-              { icon:'🚁', title:'Drone Fishing', desc:'Our fishing drone drops bait 300-400 yards offshore where the big sharks run. Nothing else gets bait out there.' },
+              { icon:'', title:'The Bulkhead', desc:'Solid casting platform right on the water. Perfect for redfish and drum cruising the shallows along the seawall.' },
+              { icon:'', title:'Private Island', desc:"A dock leads to a private island out in the bay — an elevated vantage point with open water casting in every direction." },
+              { icon:'', title:'Drone Fishing', desc:'Our fishing drone drops bait 300-400 yards offshore where the big sharks run. Nothing else gets bait out there.' },
             ].map(item => (
               <div key={item.title} className="rounded-2xl p-8 text-center" style={{background:'#0a1628', border:'1px solid #1e3a5f'}}>
-                <div className="text-5xl mb-4">{item.icon}</div>
+                {item.icon && <div className="text-5xl mb-4">{item.icon}</div>}
                 <h3 className="text-xl font-bold mb-3" style={{color:'#5fb3a1', fontFamily:'Georgia,serif'}}>{item.title}</h3>
                 <p style={{color:'#94a3b8'}}>{item.desc}</p>
               </div>
@@ -170,7 +170,7 @@ export default function App() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {INCLUDED.map(item => (
               <div key={item.title} className="flex gap-4 rounded-xl p-6" style={{background:'#112040', border:'1px solid #1e3a5f'}}>
-                <div className="text-3xl flex-shrink-0">{item.icon}</div>
+                {item.icon && <div className="text-3xl flex-shrink-0">{item.icon}</div>}
                 <div>
                   <h3 className="font-bold mb-1" style={{color:'#c8a97e'}}>{item.title}</h3>
                   <p className="text-sm" style={{color:'#94a3b8'}}>{item.desc}</p>
@@ -237,7 +237,7 @@ export default function App() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {SPECIES.map(s => (
               <div key={s.name} className="rounded-xl p-6" style={{background:'#112040', border:'1px solid #1e3a5f'}}>
-                <div className="text-3xl mb-3">{s.emoji}</div>
+                {s.emoji && <div className="text-3xl mb-3">{s.emoji}</div>}
                 <h3 className="text-lg font-bold mb-2" style={{color:'#5fb3a1'}}>{s.name}</h3>
                 <p className="text-sm" style={{color:'#94a3b8'}}>{s.desc}</p>
               </div>
@@ -255,7 +255,7 @@ export default function App() {
           <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
             {TROPHIES.map(t => (
               <div key={t.fish} className="rounded-2xl p-6 text-center transition-transform hover:-translate-y-1" style={{background:'#0a1628', border:'1px solid #1e3a5f'}}>
-                <div className="text-4xl mb-3">{t.emoji}</div>
+                {t.emoji && <div className="text-4xl mb-3">{t.emoji}</div>}
                 <div className="text-3xl font-bold mb-1" style={{color:'#c8a97e'}}>{t.size}</div>
                 <div className="text-sm font-bold mb-1" style={{color:'white'}}>{t.fish}</div>
                 <div className="text-xs" style={{color:'#5fb3a1'}}>{t.weight}</div>
@@ -289,7 +289,7 @@ export default function App() {
           </div>
           <p className="text-center mt-10">
             <a href="#book" className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-bold text-white transition-all hover:scale-105" style={{background:'#5fb3a1', boxShadow:'0 4px 20px rgba(95,179,161,0.4)'}}>
-              🎣 Book Your Trip
+              Book Your Trip
             </a>
           </p>
         </div>
@@ -320,7 +320,7 @@ export default function App() {
 
       {/* FOOTER */}
       <footer className="py-12 px-4 text-center" style={{background:'#060e1a', borderTop:'1px solid #1e3a5f'}}>
-        <p className="text-2xl font-bold mb-2" style={{fontFamily:'Georgia,serif', color:'#5fb3a1'}}>🎣 Redfish Rendezvous</p>
+        <p className="text-2xl font-bold mb-2" style={{fontFamily:'Georgia,serif', color:'#5fb3a1'}}>Redfish Rendezvous</p>
         <p className="text-sm mb-6" style={{color:'#475569'}}>Ingleside Bay, Texas · Private Waterfront Fishing</p>
         <a href="https://wa.me/13615550000" target="_blank" rel="noopener noreferrer"
           className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-sm font-bold text-white transition-all hover:scale-105"
