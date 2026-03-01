@@ -18,6 +18,7 @@ const PROPERTY_PHOTOS = [
   { url: `${SB}/rr_prop_live_oak_hero_${TS}.jpg`, caption: "Live oak waterfront" },
   { url: `${SB}/redfish_bay_clouds_pelican_${TS3}.jpg`, caption: "Ingleside Bay at sunset" },
   { url: `${SB}/redfish_final1_${TS5}.jpg`, caption: "Bay at sunset" },
+  { url: "https://hbfjdfxephlczkfgpceg.supabase.co/storage/v1/object/public/temp/rr_prop_bay_panorama_1772323927.jpg", caption: "Ingleside Bay panorama at sunset" },
   { url: `${SB}/redfish_final2_${TS5}.jpg`, caption: "The property" },
 ]
 
