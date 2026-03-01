@@ -16,6 +16,7 @@ const PROPERTY_PHOTOS = [
   { url: "https://hbfjdfxephlczkfgpceg.supabase.co/storage/v1/object/public/temp/rr_live_oak_island_1772323992.jpg", caption: "Waterfront at sunset" },
   { url: "https://hbfjdfxephlczkfgpceg.supabase.co/storage/v1/object/public/temp/rr_house_lawn_1772323992.jpg", caption: "The property" },
   { url: "https://hbfjdfxephlczkfgpceg.supabase.co/storage/v1/object/public/temp/rr_prop_bay_panorama_1772323927.jpg", caption: "Ingleside Bay panorama at sunset" },
+  { url: "https://res.cloudinary.com/dbyz6clmj/image/upload/v1772333818/home-designs/generated/v4pig4kvbbi96nz88wex.jpg", caption: "Aerial view — property & private island" },
 ]
 
 const CATCHES = [
