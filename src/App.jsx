@@ -11,17 +11,11 @@ const TS5 = "1772322578"
 const HERO_IMG = `${SB}/redfish_island_sunrise_${TS4}.jpg`
 
 const PROPERTY_PHOTOS = [
-  { url: "https://hbfjdfxephlczkfgpceg.supabase.co/storage/v1/object/public/temp/redfish_aerial_drone_1772323172.jpg", caption: "Aerial view — property & private island" },
-  { url: "https://hbfjdfxephlczkfgpceg.supabase.co/storage/v1/object/public/temp/rr_prop_new_aerial_1772323789.jpg", caption: "The private island & Ingleside Bay" },
   { url: "https://hbfjdfxephlczkfgpceg.supabase.co/storage/v1/object/public/temp/rr_island_orange_1772323992.jpg", caption: "The private island at sunrise" },
-  { url: "https://hbfjdfxephlczkfgpceg.supabase.co/storage/v1/object/public/temp/redfish_island_dock_sunrise_1772323172.jpg", caption: "Island dock at sunrise" },
-  { url: "https://hbfjdfxephlczkfgpceg.supabase.co/storage/v1/object/public/temp/rr_live_oak_island_1772323992.jpg", caption: "Waterfront at sunset" },
   { url: "https://hbfjdfxephlczkfgpceg.supabase.co/storage/v1/object/public/temp/rr_bluebonnets_bay_1772323992.jpg", caption: "Texas bluebonnets on the bay" },
+  { url: "https://hbfjdfxephlczkfgpceg.supabase.co/storage/v1/object/public/temp/rr_live_oak_island_1772323992.jpg", caption: "Waterfront at sunset" },
   { url: "https://hbfjdfxephlczkfgpceg.supabase.co/storage/v1/object/public/temp/rr_house_lawn_1772323992.jpg", caption: "The property" },
-  { url: "https://hbfjdfxephlczkfgpceg.supabase.co/storage/v1/object/public/temp/redfish_bay_clouds_pelican_1772323172.jpg", caption: "Ingleside Bay at sunset" },
-  { url: "https://hbfjdfxephlczkfgpceg.supabase.co/storage/v1/object/public/temp/rr_prop_bay_panorama_1772323927.jpg", caption: "Bay panorama at sunset" },
-  { url: "https://hbfjdfxephlczkfgpceg.supabase.co/storage/v1/object/public/temp/rr_prop_dock_golden_1772323789.jpg", caption: "Dock at golden hour" },
-  { url: "https://hbfjdfxephlczkfgpceg.supabase.co/storage/v1/object/public/temp/rr_prop_live_oak_hero_1772323789.jpg", caption: "Live oak waterfront" },
+  { url: "https://hbfjdfxephlczkfgpceg.supabase.co/storage/v1/object/public/temp/rr_prop_bay_panorama_1772323927.jpg", caption: "Ingleside Bay panorama at sunset" },
 ]
 
 const CATCHES = [
